@@ -1,0 +1,10 @@
+static/*
+.env/*
+bin/*
+include/*
+lib/python3.5/*
+logs/
+db.sqlite3
+manage.py
+pip-selfcheck.json
+

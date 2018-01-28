@@ -1155,3 +1155,4 @@
 122.178.193.242 - - [28/Jan/2018:17:10:38 +0000] "HEAD /images/app-screen/screen7@2x.jpg HTTP/1.1" 404 0 "http://13.126.175.174/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
 122.178.193.242 - - [28/Jan/2018:17:10:38 +0000] "HEAD /images/apple-store-btn@2x.png HTTP/1.1" 404 0 "http://13.126.175.174/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
 122.178.193.242 - - [28/Jan/2018:17:10:38 +0000] "HEAD /images/google-store-btn@2x.png HTTP/1.1" 404 0 "http://13.126.175.174/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"
+34.196.222.234 - - [28/Jan/2018:17:26:14 +0000] "GET / HTTP/1.1" 200 13649 "-" "Mozilla/5.0 (compatible)"
