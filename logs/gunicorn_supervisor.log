@@ -1,0 +1,2246 @@
+Starting aws as ubuntu
+[2018-01-28 15:53:36 +0000] [2147] [DEBUG] Current configuration:
+  tmp_upload_dir: None
+  check_config: False
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  paste: None
+  default_proc_name: start.wsgi:application
+  statsd_host: None
+  worker_int: <function WorkerInt.worker_int at 0x7f6091f3f620>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  syslog_facility: user
+  pre_exec: <function PreExec.pre_exec at 0x7f6091f3f950>
+  cert_reqs: 0
+  ciphers: TLSv1
+  raw_env: []
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https'}
+  proxy_protocol: False
+  reload_engine: auto
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f6091f3f488>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f6091f3f7b8>
+  post_request: <function PostRequest.post_request at 0x7f6091f3fbf8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f6091f42158>
+  worker_class: sync
+  user: 1000
+  proc_name: aws
+  spew: False
+  daemon: False
+  pidfile: None
+  umask: 0
+  pythonpath: None
+  config: None
+  errorlog: -
+  logconfig: None
+  statsd_prefix: 
+  threads: 1
+  limit_request_fields: 100
+  worker_connections: 1000
+  max_requests_jitter: 0
+  logger_class: gunicorn.glogging.Logger
+  syslog: False
+  proxy_allow_ips: ['127.0.0.1']
+  graceful_timeout: 30
+  reload: False
+  accesslog: None
+  enable_stdio_inheritance: False
+  worker_tmp_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  suppress_ragged_eofs: True
+  when_ready: <function WhenReady.when_ready at 0x7f6091f39f28>
+  sendfile: None
+  limit_request_line: 4094
+  pre_fork: <function Prefork.pre_fork at 0x7f6091f3f158>
+  do_handshake_on_connect: False
+  chdir: /home/ubuntu/start
+  on_reload: <function OnReload.on_reload at 0x7f6091f39d90>
+  syslog_addr: udp://localhost:514
+  backlog: 2048
+  pre_request: <function PreRequest.pre_request at 0x7f6091f3fae8>
+  workers: 3
+  ssl_version: 2
+  worker_exit: <function WorkerExit.worker_exit at 0x7f6091f3ff28>
+  loglevel: debug
+  initgroups: False
+  on_starting: <function OnStarting.on_starting at 0x7f6091f39bf8>
+  group: 1000
+  max_requests: 0
+  timeout: 30
+  child_exit: <function ChildExit.child_exit at 0x7f6091f3fd90>
+  certfile: None
+  post_fork: <function Postfork.post_fork at 0x7f6091f3f2f0>
+  syslog_prefix: None
+  limit_request_field_size: 8190
+  preload_app: False
+  keepalive: 2
+  ca_certs: None
+  raw_paste_global_conf: []
+  capture_output: False
+  keyfile: None
+  on_exit: <function OnExit.on_exit at 0x7f6091f422f0>
+[2018-01-28 15:53:36 +0000] [2147] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 15:53:36 +0000] [2147] [DEBUG] Arbiter booted
+[2018-01-28 15:53:36 +0000] [2147] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (2147)
+[2018-01-28 15:53:36 +0000] [2147] [INFO] Using worker: sync
+[2018-01-28 15:53:36 +0000] [2154] [INFO] Booting worker with pid: 2154
+[2018-01-28 15:53:36 +0000] [2155] [INFO] Booting worker with pid: 2155
+[2018-01-28 15:53:36 +0000] [2157] [INFO] Booting worker with pid: 2157
+[2018-01-28 15:53:36 +0000] [2147] [DEBUG] 3 workers
+[2018-01-28 16:00:35 +0000] [2157] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 16:00:35 +0000] [2155] [DEBUG] HEAD /images/app-screen@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:35 +0000] [2154] [DEBUG] HEAD /images/google-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] HEAD /images/feature-mobile@2x.png
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] HEAD /images/feature-screen2@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] HEAD /images/feature-screen3@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:00:36 +0000] [2154] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:00:36 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:00:36 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] HEAD /images/logo@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] HEAD /images/google-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] HEAD /images/app-screen@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] HEAD /images/feature-screen2@2x.png
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] HEAD /images/feature-mobile@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] HEAD /images/feature-screen3@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:23 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:24 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:24 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:24 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:24 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:24 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:24 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:24 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:24 +0000] [2154] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:24 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:24 +0000] [2155] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:03:24 +0000] [2157] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:24 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:24 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] HEAD /images/logo@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] HEAD /images/app-screen@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] HEAD /images/feature-mobile@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] HEAD /images/feature-screen2@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] HEAD /images/feature-screen3@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] HEAD /images/google-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:26 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:26 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] HEAD /images/logo@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] HEAD /images/app-screen@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] HEAD /images/feature-mobile@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] HEAD /images/feature-screen2@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] HEAD /images/google-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] HEAD /images/feature-screen3@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] HEAD /images/google-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:03:49 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:03:49 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:06 +0000] [2157] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 16:05:06 +0000] [2154] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 16:05:06 +0000] [2155] [DEBUG] HEAD /images/app-screen@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:06 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:06 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:06 +0000] [2154] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:05:06 +0000] [2155] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:06 +0000] [2157] [DEBUG] HEAD /images/feature-mobile@2x.png
+[2018-01-28 16:05:06 +0000] [2155] [DEBUG] HEAD /images/feature-screen2@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:06 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:06 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:06 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:06 +0000] [2155] [DEBUG] HEAD /images/feature-screen3@2x.png
+[2018-01-28 16:05:06 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:06 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:05:07 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2157] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2157] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:05:07 +0000] [2157] [DEBUG] Ignoring EPIPE
+Invalid HTTP_HOST header: '13.126.175.174'. You may need to add '13.126.175.174' to ALLOWED_HOSTS.
+[2018-01-28 16:05:07 +0000] [2154] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:05:07 +0000] [2155] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:37 +0000] [2147] [INFO] Handling signal: term
+[2018-01-28 16:06:37 +0000] [2154] [INFO] Worker exiting (pid: 2154)
+[2018-01-28 16:06:37 +0000] [2155] [INFO] Worker exiting (pid: 2155)
+[2018-01-28 16:06:37 +0000] [2157] [INFO] Worker exiting (pid: 2157)
+[2018-01-28 16:06:37 +0000] [2147] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:06:38 +0000] [2658] [DEBUG] Current configuration:
+  tmp_upload_dir: None
+  statsd_prefix: 
+  default_proc_name: start.wsgi:application
+  timeout: 30
+  keepalive: 2
+  pre_fork: <function Prefork.pre_fork at 0x7f42edc61158>
+  post_fork: <function Postfork.post_fork at 0x7f42edc612f0>
+  pidfile: None
+  pythonpath: None
+  pre_request: <function PreRequest.pre_request at 0x7f42edc61ae8>
+  post_request: <function PostRequest.post_request at 0x7f42edc61bf8>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  enable_stdio_inheritance: False
+  worker_exit: <function WorkerExit.worker_exit at 0x7f42edc61f28>
+  limit_request_fields: 100
+  on_starting: <function OnStarting.on_starting at 0x7f42edc5bbf8>
+  loglevel: debug
+  logconfig: None
+  syslog_prefix: None
+  reload: False
+  preload_app: False
+  raw_env: []
+  group: 1000
+  initgroups: False
+  proxy_protocol: False
+  statsd_host: None
+  limit_request_field_size: 8190
+  paste: None
+  proxy_allow_ips: ['127.0.0.1']
+  max_requests_jitter: 0
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  graceful_timeout: 30
+  suppress_ragged_eofs: True
+  reload_engine: auto
+  max_requests: 0
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f42edc61488>
+  pre_exec: <function PreExec.pre_exec at 0x7f42edc61950>
+  syslog_addr: udp://localhost:514
+  check_config: False
+  backlog: 2048
+  syslog_facility: user
+  forwarded_allow_ips: ['127.0.0.1']
+  syslog: False
+  sendfile: None
+  worker_tmp_dir: None
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f42edc617b8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f42edc64158>
+  on_exit: <function OnExit.on_exit at 0x7f42edc642f0>
+  spew: False
+  ca_certs: None
+  ciphers: TLSv1
+  logger_class: gunicorn.glogging.Logger
+  config: None
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  workers: 3
+  worker_class: sync
+  threads: 1
+  daemon: False
+  umask: 0
+  capture_output: False
+  cert_reqs: 0
+  on_reload: <function OnReload.on_reload at 0x7f42edc5bd90>
+  proc_name: aws
+  accesslog: None
+  errorlog: -
+  worker_connections: 1000
+  worker_int: <function WorkerInt.worker_int at 0x7f42edc61620>
+  chdir: /home/ubuntu/start
+  user: 1000
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  when_ready: <function WhenReady.when_ready at 0x7f42edc5bf28>
+  child_exit: <function ChildExit.child_exit at 0x7f42edc61d90>
+  do_handshake_on_connect: False
+  limit_request_line: 4094
+  raw_paste_global_conf: []
+[2018-01-28 16:06:38 +0000] [2658] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:06:38 +0000] [2658] [DEBUG] Arbiter booted
+[2018-01-28 16:06:38 +0000] [2658] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (2658)
+[2018-01-28 16:06:38 +0000] [2658] [INFO] Using worker: sync
+[2018-01-28 16:06:38 +0000] [2665] [INFO] Booting worker with pid: 2665
+[2018-01-28 16:06:38 +0000] [2667] [INFO] Booting worker with pid: 2667
+[2018-01-28 16:06:38 +0000] [2668] [INFO] Booting worker with pid: 2668
+[2018-01-28 16:06:38 +0000] [2658] [DEBUG] 3 workers
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] HEAD /images/app-screen@2x.png
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/logo@2x.png
+Not Found: /images/app-screen@2x.png
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+Not Found: /images/apple-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] HEAD /images/feature-screen2@2x.png
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] Ignoring EPIPE
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] HEAD /images/feature-screen3@2x.png
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen3@2x.jpg
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2668] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:06:47 +0000] [2667] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:06:47 +0000] [2665] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:09:13 +0000] [2665] [DEBUG] GET /
+[2018-01-28 16:09:19 +0000] [2667] [DEBUG] GET /
+[2018-01-28 16:09:53 +0000] [2668] [DEBUG] GET /
+[2018-01-28 16:10:06 +0000] [2667] [DEBUG] GET /
+[2018-01-28 16:15:31 +0000] [2665] [DEBUG] GET /
+[2018-01-28 16:18:33 +0000] [2665] [DEBUG] GET /
+[2018-01-28 16:29:26 +0000] [2668] [DEBUG] GET /
+Invalid HTTP_HOST header: '/home/ubuntu/start/run/gunicorn.sock:'. The domain name provided is not valid according to RFC 1034/1035.
+[2018-01-28 16:33:27 +0000] [2667] [DEBUG] GET /
+[2018-01-28 16:35:49 +0000] [2658] [INFO] Handling signal: term
+[2018-01-28 16:35:49 +0000] [2665] [INFO] Worker exiting (pid: 2665)
+[2018-01-28 16:35:49 +0000] [2667] [INFO] Worker exiting (pid: 2667)
+[2018-01-28 16:35:49 +0000] [2668] [INFO] Worker exiting (pid: 2668)
+[2018-01-28 16:35:50 +0000] [2658] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:35:51 +0000] [3128] [DEBUG] Current configuration:
+  worker_int: <function WorkerInt.worker_int at 0x7f691f2c2620>
+  capture_output: False
+  syslog_facility: user
+  timeout: 30
+  logconfig: None
+  user: 1000
+  graceful_timeout: 30
+  accesslog: None
+  statsd_prefix: 
+  when_ready: <function WhenReady.when_ready at 0x7f691f2bcf28>
+  pre_request: <function PreRequest.pre_request at 0x7f691f2c2ae8>
+  ssl_version: 2
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  reload_engine: auto
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  on_reload: <function OnReload.on_reload at 0x7f691f2bcd90>
+  workers: 3
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f691f2c2488>
+  post_request: <function PostRequest.post_request at 0x7f691f2c2bf8>
+  preload_app: False
+  chdir: /home/ubuntu/start
+  umask: 0
+  syslog: False
+  max_requests_jitter: 0
+  syslog_addr: udp://localhost:514
+  statsd_host: None
+  pre_exec: <function PreExec.pre_exec at 0x7f691f2c2950>
+  limit_request_fields: 100
+  forwarded_allow_ips: ['127.0.0.1']
+  pythonpath: None
+  proxy_allow_ips: ['127.0.0.1']
+  errorlog: -
+  worker_exit: <function WorkerExit.worker_exit at 0x7f691f2c2f28>
+  certfile: None
+  cert_reqs: 0
+  proc_name: aws
+  enable_stdio_inheritance: False
+  proxy_protocol: False
+  reload: False
+  keepalive: 2
+  keyfile: None
+  raw_paste_global_conf: []
+  child_exit: <function ChildExit.child_exit at 0x7f691f2c2d90>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f691f2c5158>
+  syslog_prefix: None
+  threads: 1
+  worker_connections: 1000
+  on_exit: <function OnExit.on_exit at 0x7f691f2c52f0>
+  loglevel: debug
+  config: None
+  ca_certs: None
+  suppress_ragged_eofs: True
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f691f2c27b8>
+  sendfile: None
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  post_fork: <function Postfork.post_fork at 0x7f691f2c22f0>
+  initgroups: False
+  limit_request_line: 4094
+  pre_fork: <function Prefork.pre_fork at 0x7f691f2c2158>
+  limit_request_field_size: 8190
+  group: 1000
+  tmp_upload_dir: None
+  paste: None
+  logger_class: gunicorn.glogging.Logger
+  on_starting: <function OnStarting.on_starting at 0x7f691f2bcbf8>
+  backlog: 2048
+  max_requests: 0
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  spew: False
+  check_config: False
+  worker_class: sync
+  default_proc_name: start.wsgi:application
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl'}
+[2018-01-28 16:35:51 +0000] [3128] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:35:51 +0000] [3128] [DEBUG] Arbiter booted
+[2018-01-28 16:35:51 +0000] [3128] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3128)
+[2018-01-28 16:35:51 +0000] [3128] [INFO] Using worker: sync
+[2018-01-28 16:35:51 +0000] [3135] [INFO] Booting worker with pid: 3135
+[2018-01-28 16:35:51 +0000] [3137] [INFO] Booting worker with pid: 3137
+[2018-01-28 16:35:51 +0000] [3138] [INFO] Booting worker with pid: 3138
+[2018-01-28 16:35:51 +0000] [3128] [DEBUG] 3 workers
+[2018-01-28 16:36:01 +0000] [3137] [DEBUG] GET /
+[2018-01-28 16:36:05 +0000] [3138] [DEBUG] GET /
+[2018-01-28 16:36:12 +0000] [3137] [DEBUG] GET /loginn
+Not Found: /loginn
+[2018-01-28 16:36:18 +0000] [3135] [DEBUG] GET /login
+[2018-01-28 16:36:18 +0000] [3137] [DEBUG] GET /login/
+[2018-01-28 16:36:18 +0000] [3135] [DEBUG] GET /login/prefixfree.min.js
+[2018-01-28 16:36:23 +0000] [3137] [DEBUG] GET /login
+[2018-01-28 16:36:25 +0000] [3138] [DEBUG] GET /
+[2018-01-28 16:36:46 +0000] [3137] [DEBUG] GET /
+[2018-01-28 16:37:31 +0000] [3138] [DEBUG] GET /
+[2018-01-28 16:38:17 +0000] [3137] [DEBUG] GET /
+[2018-01-28 16:38:27 +0000] [3128] [INFO] Handling signal: term
+[2018-01-28 16:38:27 +0000] [3137] [INFO] Worker exiting (pid: 3137)
+[2018-01-28 16:38:27 +0000] [3138] [INFO] Worker exiting (pid: 3138)
+[2018-01-28 16:38:27 +0000] [3135] [INFO] Worker exiting (pid: 3135)
+[2018-01-28 16:38:27 +0000] [3128] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:38:28 +0000] [3194] [DEBUG] Current configuration:
+  check_config: False
+  cert_reqs: 0
+  max_requests_jitter: 0
+  raw_paste_global_conf: []
+  statsd_host: None
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f8f88aed7b8>
+  pidfile: None
+  user: 1000
+  post_fork: <function Postfork.post_fork at 0x7f8f88aed2f0>
+  worker_class: sync
+  logconfig: None
+  tmp_upload_dir: None
+  when_ready: <function WhenReady.when_ready at 0x7f8f88ae7f28>
+  ssl_version: 2
+  ca_certs: None
+  logger_class: gunicorn.glogging.Logger
+  keyfile: None
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  threads: 1
+  graceful_timeout: 30
+  daemon: False
+  proc_name: aws
+  proxy_allow_ips: ['127.0.0.1']
+  on_starting: <function OnStarting.on_starting at 0x7f8f88ae7bf8>
+  on_exit: <function OnExit.on_exit at 0x7f8f88af02f0>
+  limit_request_field_size: 8190
+  syslog: False
+  chdir: /home/ubuntu/start
+  raw_env: []
+  worker_tmp_dir: None
+  proxy_protocol: False
+  ciphers: TLSv1
+  pre_fork: <function Prefork.pre_fork at 0x7f8f88aed158>
+  reload_engine: auto
+  spew: False
+  syslog_prefix: None
+  worker_connections: 1000
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on'}
+  syslog_facility: user
+  max_requests: 0
+  loglevel: debug
+  limit_request_fields: 100
+  preload_app: False
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f8f88aed488>
+  worker_int: <function WorkerInt.worker_int at 0x7f8f88aed620>
+  reload: False
+  keepalive: 2
+  backlog: 2048
+  pre_exec: <function PreExec.pre_exec at 0x7f8f88aed950>
+  pre_request: <function PreRequest.pre_request at 0x7f8f88aedae8>
+  child_exit: <function ChildExit.child_exit at 0x7f8f88aedd90>
+  group: 1000
+  umask: 0
+  pythonpath: None
+  limit_request_line: 4094
+  certfile: None
+  post_request: <function PostRequest.post_request at 0x7f8f88aedbf8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f8f88af0158>
+  workers: 3
+  timeout: 30
+  config: None
+  initgroups: False
+  default_proc_name: start.wsgi:application
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  enable_stdio_inheritance: False
+  on_reload: <function OnReload.on_reload at 0x7f8f88ae7d90>
+  statsd_prefix: 
+  worker_exit: <function WorkerExit.worker_exit at 0x7f8f88aedf28>
+  suppress_ragged_eofs: True
+  capture_output: False
+  sendfile: None
+  forwarded_allow_ips: ['127.0.0.1']
+  syslog_addr: udp://localhost:514
+  paste: None
+  do_handshake_on_connect: False
+[2018-01-28 16:38:28 +0000] [3194] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:38:28 +0000] [3194] [DEBUG] Arbiter booted
+[2018-01-28 16:38:28 +0000] [3194] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3194)
+[2018-01-28 16:38:28 +0000] [3194] [INFO] Using worker: sync
+[2018-01-28 16:38:28 +0000] [3201] [INFO] Booting worker with pid: 3201
+[2018-01-28 16:38:28 +0000] [3202] [INFO] Booting worker with pid: 3202
+[2018-01-28 16:38:29 +0000] [3206] [INFO] Booting worker with pid: 3206
+[2018-01-28 16:38:29 +0000] [3194] [DEBUG] 3 workers
+[2018-01-28 16:38:30 +0000] [3201] [DEBUG] GET /
+Not Found: /
+[2018-01-28 16:38:38 +0000] [3206] [DEBUG] GET /loginn
+[2018-01-28 16:38:38 +0000] [3201] [DEBUG] GET /loginn/
+[2018-01-28 16:38:38 +0000] [3206] [DEBUG] GET /loginn/static/css/bootstrap.min.css
+[2018-01-28 16:38:38 +0000] [3202] [DEBUG] GET /loginn/static/css/owl.carousel.css
+[2018-01-28 16:38:38 +0000] [3201] [DEBUG] GET /loginn/static/css/jquery.fancybox.css
+Not Found: /loginn/static/css/bootstrap.min.css
+Not Found: /loginn/static/css/jquery.fancybox.css
+[2018-01-28 16:38:38 +0000] [3206] [DEBUG] GET /loginn/static/css/owl.transitions.css
+[2018-01-28 16:38:38 +0000] [3201] [DEBUG] GET /loginn/static/css/main.css
+Not Found: /loginn/static/css/main.css
+Not Found: /loginn/static/css/owl.transitions.css
+[2018-01-28 16:38:38 +0000] [3206] [DEBUG] GET /loginn/static/css/responsive.css
+Not Found: /loginn/static/css/responsive.css
+Not Found: /loginn/static/css/owl.carousel.css
+[2018-01-28 16:38:38 +0000] [3201] [DEBUG] GET /loginn/static/css/animate.min.css
+Not Found: /loginn/static/css/animate.min.css
+[2018-01-28 16:38:38 +0000] [3202] [DEBUG] GET /loginn/static/css/line-icon.css
+Not Found: /loginn/static/css/line-icon.css
+[2018-01-28 16:38:39 +0000] [3206] [DEBUG] GET /loginn/static/images/logo.png
+[2018-01-28 16:38:39 +0000] [3201] [DEBUG] GET /loginn/static/images/app-screen.png
+Not Found: /loginn/static/images/logo.png
+[2018-01-28 16:38:39 +0000] [3202] [DEBUG] GET /loginn/static/images/google-store-btn.png
+Not Found: /loginn/static/images/app-screen.png
+[2018-01-28 16:38:39 +0000] [3206] [DEBUG] GET /loginn/static/images/apple-store-btn.png
+Not Found: /loginn/static/images/google-store-btn.png
+Not Found: /loginn/static/images/apple-store-btn.png
+[2018-01-28 16:38:39 +0000] [3201] [DEBUG] GET /loginn/static/images/feature-mobile.png
+Not Found: /loginn/static/images/feature-mobile.png
+[2018-01-28 16:38:39 +0000] [3202] [DEBUG] GET /loginn/static/images/feature-screen2.png
+Not Found: /loginn/static/images/feature-screen2.png
+[2018-01-28 16:38:39 +0000] [3206] [DEBUG] GET /loginn/static/images/feature-screen3.png
+[2018-01-28 16:38:39 +0000] [3201] [DEBUG] GET /loginn/static/images/app-screen/screen1.jpg
+Not Found: /loginn/static/images/app-screen/screen1.jpg
+[2018-01-28 16:38:39 +0000] [3202] [DEBUG] GET /loginn/static/images/app-screen/screen2.jpg
+Not Found: /loginn/static/images/app-screen/screen2.jpg
+Not Found: /loginn/static/images/feature-screen3.png
+[2018-01-28 16:38:39 +0000] [3206] [DEBUG] GET /loginn/static/images/app-screen/screen3.jpg
+Not Found: /loginn/static/images/app-screen/screen3.jpg
+[2018-01-28 16:38:39 +0000] [3201] [DEBUG] GET /loginn/static/images/app-screen/screen4.jpg
+Not Found: /loginn/static/images/app-screen/screen4.jpg
+[2018-01-28 16:38:39 +0000] [3202] [DEBUG] GET /loginn/static/images/app-screen/screen5.jpg
+[2018-01-28 16:38:39 +0000] [3206] [DEBUG] GET /loginn/static/images/app-screen/screen6.jpg
+Not Found: /loginn/static/images/app-screen/screen6.jpg
+Not Found: /loginn/static/images/app-screen/screen5.jpg
+[2018-01-28 16:38:39 +0000] [3201] [DEBUG] GET /loginn/static/images/app-screen/screen7.jpg
+Not Found: /loginn/static/images/app-screen/screen7.jpg
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/css/jquery.fancybox.css
+[2018-01-28 16:39:00 +0000] [3206] [DEBUG] GET /login/static/css/bootstrap.min.css
+Not Found: /login/static/css/jquery.fancybox.css
+Not Found: /login/static/css/bootstrap.min.css
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/static/css/owl.carousel.css
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/css/owl.transitions.css
+[2018-01-28 16:39:00 +0000] [3206] [DEBUG] GET /login/static/css/main.css
+Not Found: /login/static/css/owl.transitions.css
+Not Found: /login/static/css/owl.carousel.css
+Not Found: /login/static/css/main.css
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/static/css/responsive.css
+Not Found: /login/static/css/responsive.css
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/css/animate.min.css
+Not Found: /login/static/css/animate.min.css
+[2018-01-28 16:39:00 +0000] [3206] [DEBUG] GET /login/static/css/line-icon.css
+Not Found: /login/static/css/line-icon.css
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/static/images/logo.png
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/images/app-screen.png
+Not Found: /login/static/images/logo.png
+Not Found: /login/static/images/app-screen.png
+[2018-01-28 16:39:00 +0000] [3206] [DEBUG] GET /login/static/images/apple-store-btn.png
+Not Found: /login/static/images/apple-store-btn.png
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/static/images/google-store-btn.png
+Not Found: /login/static/images/google-store-btn.png
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/images/feature-mobile.png
+[2018-01-28 16:39:00 +0000] [3206] [DEBUG] GET /login/static/images/feature-screen2.png
+Not Found: /login/static/images/feature-screen2.png
+Not Found: /login/static/images/feature-mobile.png
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/static/images/feature-screen3.png
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/images/app-screen/screen1.jpg
+Not Found: /login/static/images/app-screen/screen1.jpg
+Not Found: /login/static/images/feature-screen3.png
+[2018-01-28 16:39:00 +0000] [3206] [DEBUG] GET /login/static/images/app-screen/screen2.jpg
+Not Found: /login/static/images/app-screen/screen2.jpg
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/static/images/app-screen/screen3.jpg
+Not Found: /login/static/images/app-screen/screen3.jpg
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/images/app-screen/screen4.jpg
+Not Found: /login/static/images/app-screen/screen4.jpg
+[2018-01-28 16:39:00 +0000] [3206] [DEBUG] GET /login/static/images/app-screen/screen5.jpg
+Not Found: /login/static/images/app-screen/screen5.jpg
+[2018-01-28 16:39:00 +0000] [3202] [DEBUG] GET /login/static/images/app-screen/screen6.jpg
+Not Found: /login/static/images/app-screen/screen6.jpg
+[2018-01-28 16:39:00 +0000] [3201] [DEBUG] GET /login/static/images/app-screen/screen7.jpg
+Not Found: /login/static/images/app-screen/screen7.jpg
+[2018-01-28 16:39:08 +0000] [3206] [DEBUG] GET /
+Not Found: /
+[2018-01-28 16:39:30 +0000] [3194] [INFO] Handling signal: term
+[2018-01-28 16:39:30 +0000] [3201] [INFO] Worker exiting (pid: 3201)
+[2018-01-28 16:39:30 +0000] [3202] [INFO] Worker exiting (pid: 3202)
+[2018-01-28 16:39:30 +0000] [3206] [INFO] Worker exiting (pid: 3206)
+[2018-01-28 16:39:30 +0000] [3194] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:39:31 +0000] [3226] [DEBUG] Current configuration:
+  errorlog: -
+  logconfig: None
+  certfile: None
+  ssl_version: 2
+  initgroups: False
+  threads: 1
+  timeout: 30
+  keepalive: 2
+  pre_request: <function PreRequest.pre_request at 0x7fa091da7ae8>
+  post_request: <function PostRequest.post_request at 0x7fa091da7bf8>
+  accesslog: None
+  logger_class: gunicorn.glogging.Logger
+  statsd_host: None
+  daemon: False
+  cert_reqs: 0
+  capture_output: False
+  statsd_prefix: 
+  reload_engine: auto
+  on_reload: <function OnReload.on_reload at 0x7fa091da1d90>
+  post_fork: <function Postfork.post_fork at 0x7fa091da72f0>
+  preload_app: False
+  group: 1000
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function WorkerInt.worker_int at 0x7fa091da7620>
+  backlog: 2048
+  worker_class: sync
+  max_requests_jitter: 0
+  when_ready: <function WhenReady.when_ready at 0x7fa091da1f28>
+  graceful_timeout: 30
+  check_config: False
+  syslog: False
+  default_proc_name: start.wsgi:application
+  pidfile: None
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  ca_certs: None
+  suppress_ragged_eofs: True
+  pythonpath: None
+  proxy_allow_ips: ['127.0.0.1']
+  pre_fork: <function Prefork.pre_fork at 0x7fa091da7158>
+  child_exit: <function ChildExit.child_exit at 0x7fa091da7d90>
+  reload: False
+  workers: 3
+  chdir: /home/ubuntu/start
+  user: 1000
+  umask: 0
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  worker_connections: 1000
+  on_starting: <function OnStarting.on_starting at 0x7fa091da1bf8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fa091da7488>
+  syslog_facility: user
+  keyfile: None
+  do_handshake_on_connect: False
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fa091daa158>
+  ciphers: TLSv1
+  max_requests: 0
+  on_exit: <function OnExit.on_exit at 0x7fa091daa2f0>
+  raw_env: []
+  paste: None
+  proxy_protocol: False
+  proc_name: aws
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  loglevel: debug
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  enable_stdio_inheritance: False
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fa091da77b8>
+  worker_tmp_dir: None
+  spew: False
+  config: None
+  sendfile: None
+  raw_paste_global_conf: []
+  pre_exec: <function PreExec.pre_exec at 0x7fa091da7950>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fa091da7f28>
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+[2018-01-28 16:39:31 +0000] [3226] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:39:31 +0000] [3226] [DEBUG] Arbiter booted
+[2018-01-28 16:39:31 +0000] [3226] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3226)
+[2018-01-28 16:39:31 +0000] [3226] [INFO] Using worker: sync
+[2018-01-28 16:39:31 +0000] [3233] [INFO] Booting worker with pid: 3233
+[2018-01-28 16:39:31 +0000] [3234] [INFO] Booting worker with pid: 3234
+[2018-01-28 16:39:31 +0000] [3235] [INFO] Booting worker with pid: 3235
+[2018-01-28 16:39:31 +0000] [3226] [DEBUG] 3 workers
+[2018-01-28 16:39:35 +0000] [3226] [INFO] Handling signal: term
+[2018-01-28 16:39:35 +0000] [3233] [INFO] Worker exiting (pid: 3233)
+[2018-01-28 16:39:35 +0000] [3234] [INFO] Worker exiting (pid: 3234)
+[2018-01-28 16:39:35 +0000] [3235] [INFO] Worker exiting (pid: 3235)
+[2018-01-28 16:39:35 +0000] [3226] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:39:36 +0000] [3256] [DEBUG] Current configuration:
+  statsd_host: None
+  user: 1000
+  ciphers: TLSv1
+  on_reload: <function OnReload.on_reload at 0x7ff882605d90>
+  post_fork: <function Postfork.post_fork at 0x7ff88260b2f0>
+  worker_int: <function WorkerInt.worker_int at 0x7ff88260b620>
+  config: None
+  suppress_ragged_eofs: True
+  worker_tmp_dir: None
+  pythonpath: None
+  child_exit: <function ChildExit.child_exit at 0x7ff88260bd90>
+  ca_certs: None
+  when_ready: <function WhenReady.when_ready at 0x7ff882605f28>
+  chdir: /home/ubuntu/start
+  capture_output: False
+  do_handshake_on_connect: False
+  enable_stdio_inheritance: False
+  statsd_prefix: 
+  pre_fork: <function Prefork.pre_fork at 0x7ff88260b158>
+  pre_exec: <function PreExec.pre_exec at 0x7ff88260b950>
+  pre_request: <function PreRequest.pre_request at 0x7ff88260bae8>
+  worker_exit: <function WorkerExit.worker_exit at 0x7ff88260bf28>
+  backlog: 2048
+  pidfile: None
+  forwarded_allow_ips: ['127.0.0.1']
+  syslog: False
+  syslog_prefix: None
+  threads: 1
+  max_requests: 0
+  initgroups: False
+  keepalive: 2
+  accesslog: None
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  proxy_protocol: False
+  syslog_facility: user
+  reload: False
+  limit_request_fields: 100
+  default_proc_name: start.wsgi:application
+  reload_engine: auto
+  ssl_version: 2
+  worker_connections: 1000
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  sendfile: None
+  daemon: False
+  workers: 3
+  keyfile: None
+  cert_reqs: 0
+  limit_request_field_size: 8190
+  on_starting: <function OnStarting.on_starting at 0x7ff882605bf8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7ff88260b488>
+  loglevel: debug
+  logger_class: gunicorn.glogging.Logger
+  preload_app: False
+  post_request: <function PostRequest.post_request at 0x7ff88260bbf8>
+  worker_class: sync
+  proxy_allow_ips: ['127.0.0.1']
+  max_requests_jitter: 0
+  graceful_timeout: 30
+  raw_env: []
+  tmp_upload_dir: None
+  syslog_addr: udp://localhost:514
+  worker_abort: <function WorkerAbort.worker_abort at 0x7ff88260b7b8>
+  on_exit: <function OnExit.on_exit at 0x7ff88260e2f0>
+  check_config: False
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7ff88260e158>
+  certfile: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  group: 1000
+  umask: 0
+  paste: None
+  logconfig: None
+  proc_name: aws
+  limit_request_line: 4094
+  timeout: 30
+  spew: False
+  raw_paste_global_conf: []
+[2018-01-28 16:39:36 +0000] [3256] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:39:36 +0000] [3256] [DEBUG] Arbiter booted
+[2018-01-28 16:39:36 +0000] [3256] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3256)
+[2018-01-28 16:39:36 +0000] [3256] [INFO] Using worker: sync
+[2018-01-28 16:39:36 +0000] [3263] [INFO] Booting worker with pid: 3263
+[2018-01-28 16:39:37 +0000] [3265] [INFO] Booting worker with pid: 3265
+[2018-01-28 16:39:37 +0000] [3266] [INFO] Booting worker with pid: 3266
+[2018-01-28 16:39:37 +0000] [3256] [DEBUG] 3 workers
+[2018-01-28 16:39:37 +0000] [3256] [INFO] Handling signal: term
+[2018-01-28 16:39:37 +0000] [3265] [INFO] Worker exiting (pid: 3265)
+[2018-01-28 16:39:37 +0000] [3266] [INFO] Worker exiting (pid: 3266)
+[2018-01-28 16:39:37 +0000] [3263] [INFO] Worker exiting (pid: 3263)
+[2018-01-28 16:39:38 +0000] [3256] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:39:39 +0000] [3285] [DEBUG] Current configuration:
+  sendfile: None
+  daemon: False
+  user: 1000
+  group: 1000
+  umask: 0
+  tmp_upload_dir: None
+  proxy_protocol: False
+  loglevel: debug
+  max_requests_jitter: 0
+  graceful_timeout: 30
+  pre_fork: <function Prefork.pre_fork at 0x7f8442762158>
+  post_fork: <function Postfork.post_fork at 0x7f84427622f0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f84427627b8>
+  pre_request: <function PreRequest.pre_request at 0x7f8442762ae8>
+  post_request: <function PostRequest.post_request at 0x7f8442762bf8>
+  reload_engine: auto
+  spew: False
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f8442765158>
+  on_exit: <function OnExit.on_exit at 0x7f84427652f0>
+  limit_request_line: 4094
+  statsd_prefix: 
+  raw_env: []
+  initgroups: False
+  pythonpath: None
+  paste: None
+  ssl_version: 2
+  timeout: 30
+  enable_stdio_inheritance: False
+  forwarded_allow_ips: ['127.0.0.1']
+  when_ready: <function WhenReady.when_ready at 0x7f844275cf28>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f8442762f28>
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  worker_connections: 1000
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  proc_name: aws
+  check_config: False
+  syslog_addr: udp://localhost:514
+  certfile: None
+  ca_certs: None
+  ciphers: TLSv1
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  keyfile: None
+  chdir: /home/ubuntu/start
+  accesslog: None
+  capture_output: False
+  logconfig: None
+  statsd_host: None
+  worker_tmp_dir: None
+  proxy_allow_ips: ['127.0.0.1']
+  errorlog: -
+  syslog: False
+  syslog_facility: user
+  preload_app: False
+  pidfile: None
+  cert_reqs: 0
+  default_proc_name: start.wsgi:application
+  config: None
+  reload: False
+  syslog_prefix: None
+  limit_request_fields: 100
+  on_starting: <function OnStarting.on_starting at 0x7f844275cbf8>
+  on_reload: <function OnReload.on_reload at 0x7f844275cd90>
+  worker_int: <function WorkerInt.worker_int at 0x7f8442762620>
+  suppress_ragged_eofs: True
+  limit_request_field_size: 8190
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f8442762488>
+  child_exit: <function ChildExit.child_exit at 0x7f8442762d90>
+  worker_class: sync
+  raw_paste_global_conf: []
+  workers: 3
+  threads: 1
+  max_requests: 0
+  keepalive: 2
+  backlog: 2048
+  do_handshake_on_connect: False
+  logger_class: gunicorn.glogging.Logger
+  pre_exec: <function PreExec.pre_exec at 0x7f8442762950>
+[2018-01-28 16:39:39 +0000] [3285] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:39:39 +0000] [3285] [DEBUG] Arbiter booted
+[2018-01-28 16:39:39 +0000] [3285] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3285)
+[2018-01-28 16:39:39 +0000] [3285] [INFO] Using worker: sync
+[2018-01-28 16:39:39 +0000] [3292] [INFO] Booting worker with pid: 3292
+[2018-01-28 16:39:39 +0000] [3293] [INFO] Booting worker with pid: 3293
+[2018-01-28 16:39:39 +0000] [3294] [INFO] Booting worker with pid: 3294
+[2018-01-28 16:39:39 +0000] [3285] [DEBUG] 3 workers
+[2018-01-28 16:39:43 +0000] [3293] [DEBUG] GET /
+[2018-01-28 16:39:52 +0000] [3294] [DEBUG] GET /register
+[2018-01-28 16:39:52 +0000] [3293] [DEBUG] GET /register/
+[2018-01-28 16:39:52 +0000] [3294] [DEBUG] GET /register/prefixfree.min.js
+[2018-01-28 16:40:01 +0000] [3293] [DEBUG] GET /logout
+[2018-01-28 16:40:02 +0000] [3292] [DEBUG] GET /logout/
+[2018-01-28 16:40:02 +0000] [3293] [DEBUG] GET /
+[2018-01-28 16:40:08 +0000] [3294] [DEBUG] GET /logout
+[2018-01-28 16:44:00 +0000] [3294] [DEBUG] HEAD /phpmyadmin/scripts/setup.php
+Not Found: /phpmyadmin/scripts/setup.php
+[2018-01-28 16:44:00 +0000] [3294] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:46:04 +0000] [3285] [INFO] Handling signal: term
+[2018-01-28 16:46:04 +0000] [3292] [INFO] Worker exiting (pid: 3292)
+[2018-01-28 16:46:04 +0000] [3293] [INFO] Worker exiting (pid: 3293)
+[2018-01-28 16:46:04 +0000] [3294] [INFO] Worker exiting (pid: 3294)
+[2018-01-28 16:46:04 +0000] [3285] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:46:05 +0000] [3543] [DEBUG] Current configuration:
+  worker_connections: 1000
+  worker_exit: <function WorkerExit.worker_exit at 0x7fe01f822f28>
+  check_config: False
+  limit_request_line: 4094
+  do_handshake_on_connect: False
+  on_starting: <function OnStarting.on_starting at 0x7fe01f81cbf8>
+  on_reload: <function OnReload.on_reload at 0x7fe01f81cd90>
+  threads: 1
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on'}
+  pre_request: <function PreRequest.pre_request at 0x7fe01f822ae8>
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  umask: 0
+  post_request: <function PostRequest.post_request at 0x7fe01f822bf8>
+  ssl_version: 2
+  statsd_host: None
+  proc_name: aws
+  timeout: 30
+  preload_app: False
+  syslog: False
+  statsd_prefix: 
+  keyfile: None
+  child_exit: <function ChildExit.child_exit at 0x7fe01f822d90>
+  logger_class: gunicorn.glogging.Logger
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fe01f822488>
+  graceful_timeout: 30
+  raw_env: []
+  pythonpath: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  cert_reqs: 0
+  ciphers: TLSv1
+  user: 1000
+  paste: None
+  reload: False
+  reload_engine: auto
+  errorlog: -
+  logconfig: None
+  when_ready: <function WhenReady.when_ready at 0x7fe01f81cf28>
+  pre_fork: <function Prefork.pre_fork at 0x7fe01f822158>
+  workers: 3
+  limit_request_fields: 100
+  ca_certs: None
+  raw_paste_global_conf: []
+  limit_request_field_size: 8190
+  loglevel: debug
+  capture_output: False
+  enable_stdio_inheritance: False
+  worker_class: sync
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fe01f825158>
+  default_proc_name: start.wsgi:application
+  syslog_prefix: None
+  worker_tmp_dir: None
+  backlog: 2048
+  sendfile: None
+  config: None
+  max_requests: 0
+  certfile: None
+  syslog_addr: udp://localhost:514
+  post_fork: <function Postfork.post_fork at 0x7fe01f8222f0>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fe01f8227b8>
+  on_exit: <function OnExit.on_exit at 0x7fe01f8252f0>
+  chdir: /home/ubuntu/start
+  daemon: False
+  pidfile: None
+  group: 1000
+  tmp_upload_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  proxy_protocol: False
+  worker_int: <function WorkerInt.worker_int at 0x7fe01f822620>
+  initgroups: False
+  max_requests_jitter: 0
+  spew: False
+  syslog_facility: user
+  pre_exec: <function PreExec.pre_exec at 0x7fe01f822950>
+  proxy_allow_ips: ['127.0.0.1']
+  keepalive: 2
+  suppress_ragged_eofs: True
+  accesslog: None
+[2018-01-28 16:46:05 +0000] [3543] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:46:05 +0000] [3543] [DEBUG] Arbiter booted
+[2018-01-28 16:46:05 +0000] [3543] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3543)
+[2018-01-28 16:46:05 +0000] [3543] [INFO] Using worker: sync
+[2018-01-28 16:46:05 +0000] [3550] [INFO] Booting worker with pid: 3550
+[2018-01-28 16:46:05 +0000] [3552] [INFO] Booting worker with pid: 3552
+[2018-01-28 16:46:05 +0000] [3553] [INFO] Booting worker with pid: 3553
+[2018-01-28 16:46:05 +0000] [3543] [DEBUG] 3 workers
+[2018-01-28 16:46:08 +0000] [3550] [DEBUG] GET /
+[2018-01-28 16:46:33 +0000] [3552] [DEBUG] GET /
+[2018-01-28 16:47:54 +0000] [3543] [INFO] Handling signal: term
+[2018-01-28 16:47:54 +0000] [3552] [INFO] Worker exiting (pid: 3552)
+[2018-01-28 16:47:54 +0000] [3553] [INFO] Worker exiting (pid: 3553)
+[2018-01-28 16:47:54 +0000] [3550] [INFO] Worker exiting (pid: 3550)
+[2018-01-28 16:47:54 +0000] [3543] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:47:55 +0000] [3577] [DEBUG] Current configuration:
+  on_reload: <function OnReload.on_reload at 0x7f1452fc6d90>
+  enable_stdio_inheritance: False
+  suppress_ragged_eofs: True
+  errorlog: -
+  proc_name: aws
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  child_exit: <function ChildExit.child_exit at 0x7f1452fccd90>
+  limit_request_fields: 100
+  worker_tmp_dir: None
+  worker_class: sync
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f1452fcc488>
+  worker_connections: 1000
+  syslog: False
+  statsd_host: None
+  default_proc_name: start.wsgi:application
+  ca_certs: None
+  accesslog: None
+  on_starting: <function OnStarting.on_starting at 0x7f1452fc6bf8>
+  umask: 0
+  raw_paste_global_conf: []
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f1452fcc7b8>
+  pre_request: <function PreRequest.pre_request at 0x7f1452fccae8>
+  raw_env: []
+  keepalive: 2
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  when_ready: <function WhenReady.when_ready at 0x7f1452fc6f28>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  syslog_prefix: None
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f1452fcf158>
+  max_requests_jitter: 0
+  timeout: 30
+  reload_engine: auto
+  check_config: False
+  post_fork: <function Postfork.post_fork at 0x7f1452fcc2f0>
+  proxy_protocol: False
+  capture_output: False
+  post_request: <function PostRequest.post_request at 0x7f1452fccbf8>
+  logconfig: None
+  certfile: None
+  worker_int: <function WorkerInt.worker_int at 0x7f1452fcc620>
+  workers: 3
+  preload_app: False
+  user: 1000
+  graceful_timeout: 30
+  logger_class: gunicorn.glogging.Logger
+  tmp_upload_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  paste: None
+  ssl_version: 2
+  cert_reqs: 0
+  do_handshake_on_connect: False
+  limit_request_line: 4094
+  ciphers: TLSv1
+  sendfile: None
+  pythonpath: None
+  threads: 1
+  pre_fork: <function Prefork.pre_fork at 0x7f1452fcc158>
+  config: None
+  pidfile: None
+  reload: False
+  pre_exec: <function PreExec.pre_exec at 0x7f1452fcc950>
+  daemon: False
+  on_exit: <function OnExit.on_exit at 0x7f1452fcf2f0>
+  keyfile: None
+  initgroups: False
+  max_requests: 0
+  chdir: /home/ubuntu/start
+  worker_exit: <function WorkerExit.worker_exit at 0x7f1452fccf28>
+  spew: False
+  loglevel: debug
+  syslog_addr: udp://localhost:514
+  backlog: 2048
+  limit_request_field_size: 8190
+  statsd_prefix: 
+  group: 1000
+  proxy_allow_ips: ['127.0.0.1']
+  syslog_facility: user
+[2018-01-28 16:47:55 +0000] [3577] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:47:55 +0000] [3577] [DEBUG] Arbiter booted
+[2018-01-28 16:47:55 +0000] [3577] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3577)
+[2018-01-28 16:47:55 +0000] [3577] [INFO] Using worker: sync
+[2018-01-28 16:47:55 +0000] [3584] [INFO] Booting worker with pid: 3584
+[2018-01-28 16:47:55 +0000] [3585] [INFO] Booting worker with pid: 3585
+[2018-01-28 16:47:55 +0000] [3577] [DEBUG] 3 workers
+[2018-01-28 16:47:55 +0000] [3587] [INFO] Booting worker with pid: 3587
+[2018-01-28 16:48:10 +0000] [3585] [DEBUG] GET /
+[2018-01-28 16:48:50 +0000] [3577] [INFO] Handling signal: term
+[2018-01-28 16:48:50 +0000] [3584] [INFO] Worker exiting (pid: 3584)
+[2018-01-28 16:48:50 +0000] [3585] [INFO] Worker exiting (pid: 3585)
+[2018-01-28 16:48:50 +0000] [3587] [INFO] Worker exiting (pid: 3587)
+[2018-01-28 16:48:50 +0000] [3577] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:48:51 +0000] [3593] [DEBUG] Current configuration:
+  capture_output: False
+  tmp_upload_dir: None
+  proxy_protocol: False
+  ssl_version: 2
+  errorlog: -
+  pre_exec: <function PreExec.pre_exec at 0x7f700b417950>
+  cert_reqs: 0
+  worker_class: sync
+  graceful_timeout: 30
+  pidfile: None
+  statsd_host: None
+  proc_name: aws
+  worker_tmp_dir: None
+  user: 1000
+  umask: 0
+  workers: 3
+  forwarded_allow_ips: ['127.0.0.1']
+  when_ready: <function WhenReady.when_ready at 0x7f700b411f28>
+  backlog: 2048
+  syslog: False
+  child_exit: <function ChildExit.child_exit at 0x7f700b417d90>
+  chdir: /home/ubuntu/start
+  proxy_allow_ips: ['127.0.0.1']
+  do_handshake_on_connect: False
+  sendfile: None
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f700b41a158>
+  group: 1000
+  reload: False
+  reload_engine: auto
+  pre_fork: <function Prefork.pre_fork at 0x7f700b417158>
+  on_exit: <function OnExit.on_exit at 0x7f700b41a2f0>
+  raw_env: []
+  threads: 1
+  accesslog: None
+  config: None
+  worker_int: <function WorkerInt.worker_int at 0x7f700b417620>
+  raw_paste_global_conf: []
+  timeout: 30
+  syslog_prefix: None
+  statsd_prefix: 
+  certfile: None
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  logger_class: gunicorn.glogging.Logger
+  worker_connections: 1000
+  max_requests: 0
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  keepalive: 2
+  default_proc_name: start.wsgi:application
+  preload_app: False
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f700b411bf8>
+  post_fork: <function Postfork.post_fork at 0x7f700b4172f0>
+  limit_request_line: 4094
+  max_requests_jitter: 0
+  loglevel: debug
+  logconfig: None
+  daemon: False
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  keyfile: None
+  ca_certs: None
+  syslog_addr: udp://localhost:514
+  on_reload: <function OnReload.on_reload at 0x7f700b411d90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f700b4177b8>
+  suppress_ragged_eofs: True
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  pre_request: <function PreRequest.pre_request at 0x7f700b417ae8>
+  post_request: <function PostRequest.post_request at 0x7f700b417bf8>
+  ciphers: TLSv1
+  initgroups: False
+  spew: False
+  check_config: False
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f700b417488>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f700b417f28>
+[2018-01-28 16:48:51 +0000] [3593] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:48:51 +0000] [3593] [DEBUG] Arbiter booted
+[2018-01-28 16:48:51 +0000] [3593] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3593)
+[2018-01-28 16:48:51 +0000] [3593] [INFO] Using worker: sync
+[2018-01-28 16:48:51 +0000] [3600] [INFO] Booting worker with pid: 3600
+[2018-01-28 16:48:51 +0000] [3601] [INFO] Booting worker with pid: 3601
+[2018-01-28 16:48:51 +0000] [3603] [INFO] Booting worker with pid: 3603
+[2018-01-28 16:48:51 +0000] [3593] [DEBUG] 3 workers
+[2018-01-28 16:49:07 +0000] [3601] [DEBUG] GET /
+[2018-01-28 16:49:12 +0000] [3603] [DEBUG] GET /
+[2018-01-28 16:51:22 +0000] [3593] [INFO] Handling signal: term
+[2018-01-28 16:51:22 +0000] [3600] [INFO] Worker exiting (pid: 3600)
+[2018-01-28 16:51:22 +0000] [3601] [INFO] Worker exiting (pid: 3601)
+[2018-01-28 16:51:22 +0000] [3603] [INFO] Worker exiting (pid: 3603)
+[2018-01-28 16:51:22 +0000] [3593] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:51:23 +0000] [3612] [DEBUG] Current configuration:
+  spew: False
+  default_proc_name: start.wsgi:application
+  reload_engine: auto
+  timeout: 30
+  keepalive: 2
+  when_ready: <function WhenReady.when_ready at 0x7ffa882f2f28>
+  pre_exec: <function PreExec.pre_exec at 0x7ffa882f8950>
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1000
+  initgroups: False
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  suppress_ragged_eofs: True
+  forwarded_allow_ips: ['127.0.0.1']
+  limit_request_fields: 100
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  post_fork: <function Postfork.post_fork at 0x7ffa882f82f0>
+  logger_class: gunicorn.glogging.Logger
+  syslog_facility: user
+  reload: False
+  on_reload: <function OnReload.on_reload at 0x7ffa882f2d90>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7ffa882fb158>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  proxy_allow_ips: ['127.0.0.1']
+  check_config: False
+  ciphers: TLSv1
+  pre_fork: <function Prefork.pre_fork at 0x7ffa882f8158>
+  post_request: <function PostRequest.post_request at 0x7ffa882f8bf8>
+  child_exit: <function ChildExit.child_exit at 0x7ffa882f8d90>
+  daemon: False
+  proc_name: aws
+  logconfig: None
+  umask: 0
+  syslog: False
+  statsd_host: None
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  proxy_protocol: False
+  worker_exit: <function WorkerExit.worker_exit at 0x7ffa882f8f28>
+  limit_request_line: 4094
+  statsd_prefix: 
+  preload_app: False
+  config: None
+  pythonpath: None
+  cert_reqs: 0
+  worker_connections: 1000
+  tmp_upload_dir: None
+  loglevel: debug
+  syslog_addr: udp://localhost:514
+  enable_stdio_inheritance: False
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7ffa882f8488>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7ffa882f87b8>
+  pre_request: <function PreRequest.pre_request at 0x7ffa882f8ae8>
+  on_exit: <function OnExit.on_exit at 0x7ffa882fb2f0>
+  ca_certs: None
+  max_requests: 0
+  raw_paste_global_conf: []
+  graceful_timeout: 30
+  capture_output: False
+  syslog_prefix: None
+  on_starting: <function OnStarting.on_starting at 0x7ffa882f2bf8>
+  chdir: /home/ubuntu/start
+  paste: None
+  keyfile: None
+  limit_request_field_size: 8190
+  certfile: None
+  raw_env: []
+  errorlog: -
+  ssl_version: 2
+  max_requests_jitter: 0
+  do_handshake_on_connect: False
+  worker_int: <function WorkerInt.worker_int at 0x7ffa882f8620>
+  accesslog: None
+  sendfile: None
+  group: 1000
+[2018-01-28 16:51:23 +0000] [3612] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:51:23 +0000] [3612] [DEBUG] Arbiter booted
+[2018-01-28 16:51:23 +0000] [3612] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3612)
+[2018-01-28 16:51:23 +0000] [3612] [INFO] Using worker: sync
+[2018-01-28 16:51:23 +0000] [3619] [INFO] Booting worker with pid: 3619
+[2018-01-28 16:51:23 +0000] [3621] [INFO] Booting worker with pid: 3621
+[2018-01-28 16:51:23 +0000] [3622] [INFO] Booting worker with pid: 3622
+[2018-01-28 16:51:23 +0000] [3612] [DEBUG] 3 workers
+[2018-01-28 16:51:33 +0000] [3621] [DEBUG] GET /
+[2018-01-28 16:55:19 +0000] [3612] [INFO] Handling signal: term
+[2018-01-28 16:55:19 +0000] [3619] [INFO] Worker exiting (pid: 3619)
+[2018-01-28 16:55:19 +0000] [3621] [INFO] Worker exiting (pid: 3621)
+[2018-01-28 16:55:19 +0000] [3622] [INFO] Worker exiting (pid: 3622)
+[2018-01-28 16:55:19 +0000] [3612] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 16:55:19 +0000] [3643] [DEBUG] Current configuration:
+  child_exit: <function ChildExit.child_exit at 0x7f0a81cf6d90>
+  default_proc_name: start.wsgi:application
+  syslog_prefix: None
+  worker_int: <function WorkerInt.worker_int at 0x7f0a81cf6620>
+  worker_connections: 1000
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f0a81cf67b8>
+  logger_class: gunicorn.glogging.Logger
+  when_ready: <function WhenReady.when_ready at 0x7f0a81cf0f28>
+  keyfile: None
+  check_config: False
+  capture_output: False
+  chdir: /home/ubuntu/start
+  certfile: None
+  cert_reqs: 0
+  threads: 1
+  errorlog: -
+  syslog_addr: udp://localhost:514
+  syslog: False
+  max_requests: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  paste: None
+  reload_engine: auto
+  workers: 3
+  max_requests_jitter: 0
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f0a81cf6488>
+  pre_exec: <function PreExec.pre_exec at 0x7f0a81cf6950>
+  ssl_version: 2
+  accesslog: None
+  loglevel: debug
+  syslog_facility: user
+  statsd_host: None
+  ca_certs: None
+  suppress_ragged_eofs: True
+  pidfile: None
+  pre_request: <function PreRequest.pre_request at 0x7f0a81cf6ae8>
+  config: None
+  reload: False
+  post_fork: <function Postfork.post_fork at 0x7f0a81cf62f0>
+  enable_stdio_inheritance: False
+  on_exit: <function OnExit.on_exit at 0x7f0a81cf92f0>
+  limit_request_line: 4094
+  pre_fork: <function Prefork.pre_fork at 0x7f0a81cf6158>
+  graceful_timeout: 30
+  keepalive: 2
+  raw_paste_global_conf: []
+  do_handshake_on_connect: False
+  proc_name: aws
+  group: 1000
+  proxy_protocol: False
+  on_reload: <function OnReload.on_reload at 0x7f0a81cf0d90>
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  preload_app: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  limit_request_fields: 100
+  raw_env: []
+  initgroups: False
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  limit_request_field_size: 8190
+  worker_class: sync
+  timeout: 30
+  logconfig: None
+  statsd_prefix: 
+  spew: False
+  daemon: False
+  user: 1000
+  worker_exit: <function WorkerExit.worker_exit at 0x7f0a81cf6f28>
+  sendfile: None
+  worker_tmp_dir: None
+  umask: 0
+  backlog: 2048
+  tmp_upload_dir: None
+  on_starting: <function OnStarting.on_starting at 0x7f0a81cf0bf8>
+  post_request: <function PostRequest.post_request at 0x7f0a81cf6bf8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f0a81cf9158>
+  ciphers: TLSv1
+  pythonpath: None
+  proxy_allow_ips: ['127.0.0.1']
+[2018-01-28 16:55:19 +0000] [3643] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 16:55:19 +0000] [3643] [DEBUG] Arbiter booted
+[2018-01-28 16:55:19 +0000] [3643] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3643)
+[2018-01-28 16:55:19 +0000] [3643] [INFO] Using worker: sync
+[2018-01-28 16:55:19 +0000] [3650] [INFO] Booting worker with pid: 3650
+[2018-01-28 16:55:19 +0000] [3651] [INFO] Booting worker with pid: 3651
+[2018-01-28 16:55:19 +0000] [3653] [INFO] Booting worker with pid: 3653
+[2018-01-28 16:55:19 +0000] [3643] [DEBUG] 3 workers
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] GET /
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] HEAD /images/app-screen@2x.png
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+Not Found: /images/app-screen@2x.png
+Not Found: /images/logo@2x.png
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/feature-screen2@2x.png
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] HEAD /images/feature-screen3@2x.png
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/apple-store-btn@2x.png
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:55:29 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:55:29 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:30 +0000] [3653] [DEBUG] GET /login/
+[2018-01-28 16:55:30 +0000] [3651] [DEBUG] GET /login/prefixfree.min.js
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] HEAD /images/app-screen@2x.png
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] HEAD /images/logo@2x.png
+Not Found: /images/logo@2x.png
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/app-screen@2x.png
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+Not Found: /images/apple-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] HEAD /images/feature-screen2@2x.png
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] HEAD /images/feature-screen3@2x.png
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:55:33 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:55:37 +0000] [3651] [DEBUG] GET /
+[2018-01-28 16:55:56 +0000] [3650] [DEBUG] GET /login/
+[2018-01-28 16:55:56 +0000] [3651] [DEBUG] GET /login/prefixfree.min.js
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] GET /
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/logo@2x.png
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] HEAD /images/app-screen@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen@2x.png
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] HEAD /images/feature-mobile@2x.png
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] HEAD /images/feature-screen2@2x.png
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] Ignoring EPIPE
+Not Found: /images/feature-mobile@2x.png
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] HEAD /images/feature-screen3@2x.png
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:56:01 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:56:01 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:03 +0000] [3650] [DEBUG] GET /register/
+[2018-01-28 16:56:03 +0000] [3651] [DEBUG] GET /register/prefixfree.min.js
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] HEAD /images/app-screen@2x.png
+Not Found: /images/logo@2x.png
+Not Found: /images/app-screen@2x.png
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] Ignoring EPIPE
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] HEAD /images/feature-screen2@2x.png
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] Ignoring EPIPE
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] HEAD /images/feature-screen3@2x.png
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:56:07 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:56:07 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:56:18 +0000] [3651] [DEBUG] GET /
+[2018-01-28 16:56:25 +0000] [3650] [DEBUG] GET /
+[2018-01-28 16:56:31 +0000] [3653] [DEBUG] GET /
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] GET /
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] HEAD /images/logo@2x.png
+Not Found: /images/logo@2x.png
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] HEAD /images/app-screen@2x.png
+Not Found: /images/app-screen@2x.png
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] HEAD /images/feature-screen2@2x.png
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] Ignoring EPIPE
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] HEAD /images/feature-screen3@2x.png
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen4@2x.jpg
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3650] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 16:58:17 +0000] [3651] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:17 +0000] [3653] [DEBUG] Ignoring EPIPE
+[2018-01-28 16:58:21 +0000] [3650] [DEBUG] GET /
+[2018-01-28 16:58:24 +0000] [3651] [DEBUG] GET /
+[2018-01-28 16:59:22 +0000] [3653] [DEBUG] GET /
+[2018-01-28 17:00:53 +0000] [3643] [INFO] Handling signal: term
+[2018-01-28 17:00:53 +0000] [3650] [INFO] Worker exiting (pid: 3650)
+[2018-01-28 17:00:53 +0000] [3651] [INFO] Worker exiting (pid: 3651)
+[2018-01-28 17:00:53 +0000] [3653] [INFO] Worker exiting (pid: 3653)
+[2018-01-28 17:00:53 +0000] [3643] [INFO] Shutting down: Master
+Starting aws as ubuntu
+[2018-01-28 17:00:54 +0000] [3792] [DEBUG] Current configuration:
+  bind: ['unix:/home/ubuntu/start/run/gunicorn.sock']
+  user: 1000
+  pre_fork: <function Prefork.pre_fork at 0x7f6e36412158>
+  certfile: None
+  do_handshake_on_connect: False
+  daemon: False
+  limit_request_fields: 100
+  worker_int: <function WorkerInt.worker_int at 0x7f6e36412620>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f6e364127b8>
+  raw_env: []
+  pythonpath: None
+  threads: 1
+  sendfile: None
+  keyfile: None
+  on_starting: <function OnStarting.on_starting at 0x7f6e3640cbf8>
+  pre_request: <function PreRequest.pre_request at 0x7f6e36412ae8>
+  post_request: <function PostRequest.post_request at 0x7f6e36412bf8>
+  child_exit: <function ChildExit.child_exit at 0x7f6e36412d90>
+  on_exit: <function OnExit.on_exit at 0x7f6e364152f0>
+  backlog: 2048
+  chdir: /home/ubuntu/start
+  proxy_protocol: False
+  accesslog: None
+  logger_class: gunicorn.glogging.Logger
+  proxy_allow_ips: ['127.0.0.1']
+  raw_paste_global_conf: []
+  syslog_facility: user
+  ca_certs: None
+  ciphers: TLSv1
+  default_proc_name: start.wsgi:application
+  worker_class: sync
+  timeout: 30
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  group: 1000
+  spew: False
+  proc_name: aws
+  worker_connections: 1000
+  enable_stdio_inheritance: False
+  statsd_prefix: 
+  graceful_timeout: 30
+  errorlog: -
+  post_fork: <function Postfork.post_fork at 0x7f6e364122f0>
+  preload_app: False
+  pidfile: None
+  umask: 0
+  initgroups: False
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  forwarded_allow_ips: ['127.0.0.1']
+  syslog_prefix: None
+  limit_request_line: 4094
+  pre_exec: <function PreExec.pre_exec at 0x7f6e36412950>
+  paste: None
+  config: None
+  loglevel: debug
+  on_reload: <function OnReload.on_reload at 0x7f6e3640cd90>
+  reload: False
+  reload_engine: auto
+  check_config: False
+  limit_request_field_size: 8190
+  worker_exit: <function WorkerExit.worker_exit at 0x7f6e36412f28>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f6e36415158>
+  syslog: False
+  tmp_upload_dir: None
+  suppress_ragged_eofs: True
+  max_requests_jitter: 0
+  cert_reqs: 0
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  statsd_host: None
+  max_requests: 0
+  ssl_version: 2
+  keepalive: 2
+  when_ready: <function WhenReady.when_ready at 0x7f6e3640cf28>
+  capture_output: False
+  worker_tmp_dir: None
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f6e36412488>
+  workers: 3
+[2018-01-28 17:00:54 +0000] [3792] [INFO] Starting gunicorn 19.7.1
+[2018-01-28 17:00:54 +0000] [3792] [DEBUG] Arbiter booted
+[2018-01-28 17:00:54 +0000] [3792] [INFO] Listening at: unix:/home/ubuntu/start/run/gunicorn.sock (3792)
+[2018-01-28 17:00:54 +0000] [3792] [INFO] Using worker: sync
+[2018-01-28 17:00:54 +0000] [3799] [INFO] Booting worker with pid: 3799
+[2018-01-28 17:00:54 +0000] [3801] [INFO] Booting worker with pid: 3801
+[2018-01-28 17:00:54 +0000] [3802] [INFO] Booting worker with pid: 3802
+[2018-01-28 17:00:54 +0000] [3792] [DEBUG] 3 workers
+[2018-01-28 17:00:59 +0000] [3801] [DEBUG] GET /
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] HEAD /images/app-screen@2x.png
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+Not Found: /images/app-screen@2x.png
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] Ignoring EPIPE
+Not Found: /images/logo@2x.png
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] HEAD /images/feature-mobile@2x.png
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] Ignoring EPIPE
+Not Found: /images/feature-mobile@2x.png
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] HEAD /images/feature-screen2@2x.png
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] HEAD /images/feature-screen3@2x.png
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen4@2x.jpg
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:00 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:01:00 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:01:00 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:01:01 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:01 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:01 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:01:01 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:01 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:01 +0000] [3802] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 17:01:01 +0000] [3801] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 17:01:01 +0000] [3802] [DEBUG] Ignoring EPIPE
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 17:01:01 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:04 +0000] [3799] [DEBUG] GET /login/
+[2018-01-28 17:01:04 +0000] [3801] [DEBUG] GET /login/prefixfree.min.js
+[2018-01-28 17:01:35 +0000] [3802] [DEBUG] GET /
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] HEAD /images/app-screen@2x.png
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+Not Found: /images/app-screen@2x.png
+Not Found: /images/logo@2x.png
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] HEAD /images/feature-screen2@2x.png
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] Ignoring EPIPE
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] Ignoring EPIPE
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] HEAD /images/feature-screen3@2x.png
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen4@2x.jpg
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen7@2x.jpg
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 17:01:36 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 17:01:36 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] GET /
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] HEAD /images/logo@2x.png
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] HEAD /images/app-screen@2x.png
+Not Found: /images/app-screen@2x.png
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/logo@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] HEAD /images/feature-screen2@2x.png
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] HEAD /images/feature-screen3@2x.png
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen4@2x.jpg
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+Not Found: /images/app-screen/screen7@2x.jpg
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:55 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:09:55 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:09:55 +0000] [3801] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/app-screen/screen1@2x.jpg
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 17:09:56 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:56 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:56 +0000] [3802] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 17:09:56 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:09:56 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:31 +0000] [3799] [DEBUG] GET /login/
+[2018-01-28 17:10:31 +0000] [3802] [DEBUG] GET /login/prefixfree.min.js
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] HEAD /images/apple-store-btn@2x.png
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] HEAD /images/logo@2x.png
+Not Found: /images/logo@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] HEAD /images/app-screen@2x.png
+Not Found: /images/app-screen@2x.png
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] HEAD /images/google-store-btn@2x.png
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] HEAD /images/feature-mobile@2x.png
+Not Found: /images/feature-mobile@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] HEAD /images/feature-screen2@2x.png
+Not Found: /images/feature-screen2@2x.png
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] HEAD /images/feature-screen3@2x.png
+Not Found: /images/feature-screen3@2x.png
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen1@2x.jpg
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+Not Found: /images/app-screen/screen2@2x.jpg
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen3@2x.jpg
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen4@2x.jpg
+Not Found: /images/app-screen/screen3@2x.jpg
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] HEAD /images/app-screen/screen5@2x.jpg
+Not Found: /images/app-screen/screen5@2x.jpg
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+Not Found: /images/app-screen/screen6@2x.jpg
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] HEAD /images/app-screen/screen7@2x.jpg
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] Ignoring EPIPE
+Not Found: /images/app-screen/screen7@2x.jpg
+[2018-01-28 17:10:38 +0000] [3801] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] HEAD /images/apple-store-btn@2x.png
+Not Found: /images/apple-store-btn@2x.png
+[2018-01-28 17:10:38 +0000] [3802] [DEBUG] Ignoring EPIPE
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] HEAD /images/google-store-btn@2x.png
+Not Found: /images/google-store-btn@2x.png
+[2018-01-28 17:10:38 +0000] [3799] [DEBUG] Ignoring EPIPE
